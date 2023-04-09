@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid TextInput="btnenter_Click">
+        <Button x:Name="Fuck" Content="登入" HorizontalAlignment="Left" Margin="391,217,0,0" VerticalAlignment="Top" Click="Fuck_Click"/>
+        <Label Content="帳號" HorizontalAlignment="Left" Margin="299,122,0,0" VerticalAlignment="Top"/>
+        <Label Content="密碼" HorizontalAlignment="Left" Margin="298,175,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtacc" HorizontalAlignment="Left" Margin="376,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtpsd" HorizontalAlignment="Left" Margin="374,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtshow" HorizontalAlignment="Left" Margin="368,256,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
